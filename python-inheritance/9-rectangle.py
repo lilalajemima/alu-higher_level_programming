@@ -9,6 +9,7 @@ class BaseGeometry:
     """
     This is the base class for geometry objects.
     """
+
     def area(self):
         raise Exception("area() is not implemented")
 
@@ -48,7 +49,9 @@ class Rectangle(BaseGeometry):
         return self.__height * self.__width
 
     def __str__(self):
-        return f"[Rectangle] {self.__width}/{self.__height}"#!/usr/bin/python3
+        # !/usr/bin/python3
+        return f"[Rectangle] {self.__width}/{self.__height}"
+
 
 """
 This file contains class BaseGeometry
@@ -59,6 +62,7 @@ class BaseGeometry:
     """
     This is the base class for geometry objects.
     """
+
     def area(self):
         raise Exception("area() is not implemented")
 

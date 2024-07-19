@@ -54,3 +54,9 @@ VALUES (89, "Best School");
 UPDATE second_table
 SET score = 10 
 WHERE name = 'Bob';
+
+-- computes the average of the records
+SELECT AVG(score) average
+FROM second_table;
+
+
